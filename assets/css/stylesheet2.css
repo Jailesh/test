@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.user{
+    
+	background:url("../images/background1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+	
+}
+.bigback{
+	background:url("../images/bckgnd.jpg");
+	background-repeat: no-repeat;
+	background-attachment: cover;
+	background-size: 100% 100%;
+	min-width: 540px;
+	
+}
+
+.blank{
+	height: 195px;
+	display: flex;
+}
+.logo{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+.navigate{
+	background: rgba(120,0,228,0.5);
+	margin-bottom: 50px;
+}
+.navigate a{
+	color: antiquewhite;
+	font-family: 'harlow_solid_italicitalic';
+	font-size: x-large;
+}
+.forms{
+	background-color: rgba(120,0,228,0.5);
+	padding: 5px 5px 10px 5px;
+}
+.heading{
+	font-family: 'harlow_solid_italicitalic'; 
+
+}
+.msg{
+	padding-top: 20px;
+	background-color: rgba(120,0,228,0.5);
+
+}
+.header-img{
+	padding: 20px 10px;
+	height: 100%;
+	width: auto;
+	width: 100%;
+}
+.scrollspy-example {
+    position: relative;
+    height: 500px;
+	padding: 5px 5px;
+    overflow: auto;
+	background-color:rgba(120,0,228,0.5) ;
+	margin-bottom: 50px;
+}
+.selections{
+	background-color:rgba(66,19,186,0.89) ;
+	padding: 5px;
+}
+.trailer-bg{
+	background: linear-gradient(to bottom, #00ccff 0%, #0066ff 100%);
+}
+.apps
+{
+    background: linear-gradient(to right, #00ff00 0%, #ff9933 100%);
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 300px;
+}
+.navbar-toggler-icon{
+	color: antiquewhite;
+	border: solid;
+	background-image: url("../images/logo.png");
+    border-radius: 50px;
+}
+.footer{
+	height: 300px;
+	background-color:rgba(76,21,217,0.46) ;
+}
+.especial{
+	color: antiquewhite; 	
+}
+
+.copywright{
+	color: rgba(0,0,0,0.38);
+
+}
+.vote{
+	text-decoration: none;
+	padding: 5px;
+}
+.poster{
+	height: 100%;
+	width: 100%;
+}
+
+.thumb_view{
+	height: 100px;
+}
+
+.textarea{
+    resize: none;
+}
+.admin{
+	position:  fixed;
+ 	bottom: 0;
+ 
+}
+.thumbnail{
+	height:500px;
+
+}
+.info{
+	padding: 50px;
+	color: black;
+}
+.trailer-info{
+	padding: 50 px;
+}
